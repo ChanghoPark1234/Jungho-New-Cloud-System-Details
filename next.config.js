@@ -4,6 +4,8 @@ const nextConfig = {
   poweredByHeader: false,
   output: 'export',
   trailingSlash: true,
+  basePath: '/Jungho-New-Cloud-System-Details',
+  assetPrefix: '/Jungho-New-Cloud-System-Details/',
   images: {
     unoptimized: true
   },
