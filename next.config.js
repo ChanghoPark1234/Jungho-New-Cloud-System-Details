@@ -2,14 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/Jungho-New-Cloud-System-Details',
-  assetPrefix: '/Jungho-New-Cloud-System-Details/',
   images: {
     unoptimized: true
-  },
-  // 정적 내보내기에서는 headers 설정 제거
+  }
+}
+
+// GitHub Pages 배포를 위한 설정 (NODE_ENV가 production일 때만 적용)
+if (process.env.NODE_ENV === 'production') {
+  nextConfig.output = 'export';
+  nextConfig.trailingSlash = true;
+  nextConfig.basePath = '/Jungho-New-Cloud-System-Details';
+  nextConfig.assetPrefix = '/Jungho-New-Cloud-System-Details/';
 }
 
 module.exports = nextConfig 
