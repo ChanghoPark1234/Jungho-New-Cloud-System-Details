@@ -25,7 +25,7 @@ export const slides = [
           <li>조명제어, 전력제어 및 종합시설관리시스템(SI/FMS) 운영</li>
           <li>데이터 기반 비즈니스 혁신, B2C 시장 진출 목표</li>
         </ul>
-        <div className="info-box">
+        <div className="highlight-box" style={{ marginBottom: '60px' }}>
           <strong>핵심 목표:</strong> 조명, 전력제어 데이터 자산화, 글로벌 확장, 스마트 조명 서비스 창출
         </div>
       </>
@@ -63,34 +63,34 @@ export const slides = [
     id: 4,
     content: (
       <>
-        <h2>정호그룹 클라우드 시스템 구축 전략</h2>
-        <div className="phases">
-          <div className="phase">
+        <h2 style={{ marginTop: '40px', marginBottom: '30px' }}>정호그룹 클라우드 시스템 구축 전략</h2>
+        <div className="phases" style={{ marginBottom: '25px', gap: '15px' }}>
+          <div className="phase" style={{ padding: '15px', minHeight: '140px' }}>
             <div className="phase-number">1</div>
             <h3>요구분석 및 계획</h3>
             <p><strong>기간:</strong> 1-2개월</p>
             <p>조명제어 데이터 요구사항 정의, 규제 준수 확인, 비즈니스 목표 설정</p>
           </div>
-          <div className="phase">
+          <div className="phase" style={{ padding: '15px', minHeight: '140px' }}>
             <div className="phase-number">2</div>
             <h3>하이브리드 클라우드 모델 선택</h3>
             <p><strong>기간:</strong> 3-6개월</p>
             <p>상용 클라우드 기반 하이브리드 모델 구축</p>
           </div>
-          <div className="phase">
+          <div className="phase" style={{ padding: '15px', minHeight: '140px' }}>
             <div className="phase-number">3</div>
             <h3>데이터 마이그레이션 및 통합</h3>
             <p><strong>기간:</strong> 6-12개월</p>
             <p>기존 조명제어 데이터 클라우드 이전, 시스템 통합</p>
           </div>
-          <div className="phase">
+          <div className="phase" style={{ padding: '15px', minHeight: '140px' }}>
             <div className="phase-number">4</div>
             <h3>최적화 및 비즈니스 모델 개발</h3>
             <p><strong>기간:</strong> 12-24개월</p>
             <p>조명제어 데이터 분석 서비스, B2C 스마트 조명 플랫폼 출시</p>
           </div>
         </div>
-        <div className="highlight-box">총 기간: 2년 | 추천: 하이브리드 클라우드 전략</div>
+        <div className="highlight-box" style={{ marginBottom: '100px' }}>총 기간: 2년 | 추천: 하이브리드 클라우드 전략</div>
       </>
     )
   },
@@ -162,7 +162,7 @@ export const slides = [
             <p>조명제어 데이터 주권 문제 해결</p>
           </div>
         </div>
-        <div className="info-box">
+        <div className="highlight-box" style={{ marginBottom: '60px' }}>
           <strong>구현:</strong> 민감한 조명제어 데이터는 온프레미스, 일반 데이터는 클라우드 저장
         </div>
       </>
@@ -219,7 +219,7 @@ export const slides = [
           <li>온라인 조명 지원: 실시간 채팅, AI 챗봇</li>
           <li>조명 커뮤니티: 유튜브, SNS, Q&A 운영</li>
         </ul>
-        <div className="info-box">
+        <div className="highlight-box" style={{ marginBottom: '60px' }}>
           <strong>목표:</strong> 비전문 고객도 30분 내 스마트 조명 설치 완료 가능
         </div>
       </>
@@ -299,7 +299,7 @@ export const slides = [
           </div>
         </div>
 
-        <div className="info-box" style={{ marginBottom: '60px' }}>
+        <div className="highlight-box" style={{ marginBottom: '60px' }}>
           <strong>정부 지원:</strong> 2025년 중소기업 클라우드 바우처 사업 (최대 8,000만원)
         </div>
       </>
