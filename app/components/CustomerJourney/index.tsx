@@ -4,7 +4,7 @@ import React from 'react';
 import { useState } from 'react';
 import type { FC } from 'react';
 import { motion } from 'framer-motion';
-import { B2B_STAGES, B2C_STAGES, CustomerType } from '../../types/customer-journey';
+import { B2B_STAGES, B2C_STAGES, CustomerType } from '@/types/customer-journey';
 import { JourneyPath } from './JourneyPath';
 
 export const CustomerJourney: FC = () => {

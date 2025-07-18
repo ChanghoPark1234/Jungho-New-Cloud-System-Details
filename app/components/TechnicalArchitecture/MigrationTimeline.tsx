@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MigrationPhase } from '../../types/technical-architecture';
+import { MigrationPhase } from '@/types/technical-architecture';
 
 interface Props {
   phases: MigrationPhase[];

@@ -7,8 +7,8 @@ const nextConfig = {
   }
 }
 
-// GitHub Pages 배포를 위한 설정 (NODE_ENV가 production일 때만 적용)
-if (process.env.NODE_ENV === 'production') {
+// GitHub Pages 배포를 위한 설정 (VERCEL 환경이 아닐 때만 적용)
+if (process.env.NODE_ENV === 'production' && !process.env.VERCEL) {
   nextConfig.output = 'export';
   nextConfig.trailingSlash = true;
   nextConfig.basePath = '/Jungho-New-Cloud-System-Details';

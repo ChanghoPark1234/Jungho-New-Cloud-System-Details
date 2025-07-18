@@ -8,7 +8,7 @@ import {
   CURRENT_SYSTEM_FEATURES,
   FUTURE_SYSTEM_FEATURES,
   MIGRATION_PHASES
-} from '../../types/technical-architecture';
+} from '@/types/technical-architecture';
 
 export const TechnicalArchitecture: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SystemFeature } from '../../types/technical-architecture';
+import { SystemFeature } from '@/types/technical-architecture';
 
 interface Props {
   currentFeatures: SystemFeature[];

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { CustomerType, JourneyStage as JourneyStageType } from '../../types/customer-journey';
+import { CustomerType, JourneyStage as JourneyStageType } from '@/types/customer-journey';
 import { JourneyStage } from './JourneyStage';
 
 interface Props {
