@@ -443,8 +443,8 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  height: 200px;
-  margin: 32px auto;
+  height: 150px;
+  margin: 20px auto;
   gap: 16px;
   max-width: 600px;
 }
@@ -478,13 +478,69 @@
 .budget-bar::after {
   content: attr(data-label);
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
   color: #64748B;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
+  line-height: 1.2;
+}
+
+/* 새로운 예산 라벨 스타일 */
+.budget-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.budget-label {
+  flex: 1;
+  text-align: center;
+  color: #64748B;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  padding: 0 8px;
+}
+
+/* 한 줄 지표 스타일 */
+.metrics-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 32px auto;
+  max-width: 1000px;
+  gap: 20px;
+}
+
+.metric-item-row {
+  flex: 1;
+  text-align: center;
+  background: white;
+  padding: 20px 15px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  min-width: 0;
+}
+
+.metric-number-row {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3B82F6;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.metric-label-row {
+  font-size: 13px;
+  color: #64748B;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 /* JUNGHO GROUP 네비게이션 */

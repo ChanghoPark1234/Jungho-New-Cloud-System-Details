@@ -8,8 +8,8 @@ export const slides = [
     content: (
       <>
         <h1>정호그룹 클라우드 시스템 구축 전략</h1>
-        <div className="subtitle">조명제어시스템 전문업체의 데이터 기반 비즈니스 혁신</div>
-        <div className="author">정호그룹 전문위원 박창호<br />2025년 7월</div>
+        <div className="subtitle">조명/전력제어시스템 전문업체의 데이터 기반 비즈니스 혁신</div>
+        <div className="author">정호그룹 자문위원 박창호<br />2025년 7월</div>
       </>
     )
   },
@@ -21,12 +21,12 @@ export const slides = [
       <>
         <h2>도입 및 배경</h2>
         <ul>
-          <li>한국, 미국, 캐나다, 대만 등 글로벌 시장에서 조명제어시스템 데이터 관리 필요성</li>
-          <li>조명제어시스템, 전력제어, 종합시설관리시스템(SI/FMS) 운영</li>
+          <li>한국, 미국, 캐나다, 대만 등 글로벌 시장에서 조명.전력제어시스템 데이터 관리 필요성</li>
+          <li>조명제어, 전력제어 및 종합시설관리시스템(SI/FMS) 운영</li>
           <li>데이터 기반 비즈니스 혁신, B2C 시장 진출 목표</li>
         </ul>
         <div className="info-box">
-          <strong>핵심 목표:</strong> 조명제어 데이터 자산화, 글로벌 확장, 스마트 조명 서비스 창출
+          <strong>핵심 목표:</strong> 조명, 전력제어 데이터 자산화, 글로벌 확장, 스마트 조명 서비스 창출
         </div>
       </>
     )
@@ -263,30 +263,43 @@ export const slides = [
     content: (
       <>
         <h2>정호그룹 비용-편익 분석</h2>
-        <div className="budget-chart">
-          <div className="budget-bar phase1" data-label="상용 클라우드 $22K-50K/년"></div>
-          <div className="budget-bar phase2" data-label="하이브리드 $38K-160K/년"></div>
-          <div className="budget-bar phase3" data-label="정부 지원 최대 8천만원"></div>
-        </div>
-        <div className="metrics-grid">
-          <div className="metric-item">
-            <div className="metric-number">15-30%</div>
-            <div className="metric-label">조명제어 매출 증가 예상</div>
+        
+        {/* 비용 비교 섹션 */}
+        <div style={{ marginTop: '20px', marginBottom: '25px' }}>
+          <h3 style={{ textAlign: 'center', marginBottom: '15px', color: '#1E293B' }}>비용 비교</h3>
+          <div className="budget-chart">
+            <div className="budget-bar phase1" data-label="상용 클라우드"></div>
+            <div className="budget-bar phase2" data-label="하이브리드"></div>
+            <div className="budget-bar phase3" data-label="정부 지원"></div>
           </div>
-          <div className="metric-item">
-            <div className="metric-number">20-40%</div>
-            <div className="metric-label">조명 유지보수 비용 절감</div>
-          </div>
-          <div className="metric-item">
-            <div className="metric-number">12-18개월</div>
-            <div className="metric-label">ROI 회수 기간</div>
-          </div>
-          <div className="metric-item">
-            <div className="metric-number">50-80%</div>
-            <div className="metric-label">정부 지원 절감</div>
+          <div className="budget-labels">
+            <div className="budget-label">$22K-50K/년</div>
+            <div className="budget-label">$38K-160K/년</div>
+            <div className="budget-label">최대 8천만원</div>
           </div>
         </div>
-        <div className="info-box">
+
+        {/* 주요 지표 섹션 - 한 줄로 배치 */}
+        <div className="metrics-row" style={{ marginTop: '15px', marginBottom: '15px' }}>
+          <div className="metric-item-row">
+            <div className="metric-number-row">15-30%</div>
+            <div className="metric-label-row">조명제어 매출 증가 예상</div>
+          </div>
+          <div className="metric-item-row">
+            <div className="metric-number-row">20-40%</div>
+            <div className="metric-label-row">조명 유지보수 비용 절감</div>
+          </div>
+          <div className="metric-item-row">
+            <div className="metric-number-row">12-18개월</div>
+            <div className="metric-label-row">ROI 회수 기간</div>
+          </div>
+          <div className="metric-item-row">
+            <div className="metric-number-row">50-80%</div>
+            <div className="metric-label-row">정부 지원 절감</div>
+          </div>
+        </div>
+
+        <div className="info-box" style={{ marginBottom: '60px' }}>
           <strong>정부 지원:</strong> 2025년 중소기업 클라우드 바우처 사업 (최대 8,000만원)
         </div>
       </>
@@ -330,7 +343,7 @@ export const slides = [
     content: (
       <>
         <h2>정호그룹 다음 단계 및 제안</h2>
-        <div className="phases">
+        <div className="phases" style={{ marginTop: '20px', marginBottom: '25px' }}>
           <div className="phase">
             <div className="phase-number">1</div>
             <h3>정부 지원 신청</h3>
@@ -352,7 +365,7 @@ export const slides = [
             <p>IT 팀 대상 클라우드 교육, B2C 스마트 조명 플랫폼 프로토타입</p>
           </div>
         </div>
-        <div className="info-box">
+        <div className="info-box" style={{ marginBottom: '60px' }}>
           <strong>문의:</strong> 정보통신산업진흥원(NIPA) 황은진 책임 (043-931-5772)<br />
           <strong>다음 단계:</strong> 경영진 승인 후 정호그룹 조명제어 시스템 세부 실행 계획 수립
         </div>
